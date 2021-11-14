@@ -46,5 +46,8 @@ private:
     quint16 serverPort;
     //username
     QString userName;
+    //msg buffer
+    QByteArray buf;
+    QString msgStr;
 };
 #endif // CHATCLIENTDIALOG_H
